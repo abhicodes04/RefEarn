@@ -100,44 +100,6 @@ const DashboardScreen: React.FC<DashboardScreenProps> = ({ onNavigate }) => {
             <h3 className="text-2xl font-bold text-gray-800">80%</h3>
           </div>
         </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <div className="lg:col-span-2">
-            <div className="bg-white rounded-2xl p-6 shadow-lg">
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Quick Actions</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <button
-                  onClick={() => onNavigate('invite')}
-                  className="flex items-center justify-center bg-gradient-to-r from-red-500 to-orange-500 text-white py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200"
-                >
-                  <Share2 className="w-6 h-6 mr-3" />
-                  Share Referral Code
-                </button>
-                
-                <button
-                  onClick={() => onNavigate('rewards')}
-                  className="flex items-center justify-center bg-gray-100 text-gray-700 py-4 rounded-xl font-semibold hover:bg-gray-200 transition-all duration-200"
-                >
-                  <Wallet className="w-6 h-6 mr-3" />
-                  View Rewards
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="bg-white rounded-2xl p-6 shadow-lg">
-              <h3 className="text-lg font-semibold text-gray-800 mb-4">Your Referral Code</h3>
-              <div className="bg-gray-100 p-4 rounded-xl text-center">
-                <p className="text-2xl font-mono font-bold text-gray-800 mb-2">RAJ2024</p>
-                <button className="flex items-center justify-center text-red-500 hover:text-red-600 transition-colors mx-auto">
-                  <Copy className="w-4 h-4 mr-2" />
-                  Copy Code
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

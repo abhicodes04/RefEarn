@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import AnalyticsComponent from './AnalyticsComponent';
-import UserManagementComponent from './UserManagementComponent';
-import ProductManagementComponent from './ProductManagementComponent';
-import RewardLogicComponent from './RewardLogicComponent';
-import StaffManagementComponent from './StaffManagementComponent';
+import AnalyticsComponent from '../../components/AnalyticsComponent';
+import UserManagementComponent from '../../components/UserManagementComponent';
+import ProductManagementComponent from '../../components/ProductManagementComponent';
+import RewardLogicComponent from '../../components/RewardLogicComponent';
+import StaffManagementComponent from '../../components/StaffManagementComponent';
 import { 
   BarChart3, 
   Users, 

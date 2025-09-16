@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import WelcomeScreen from './components/WelcomeScreen';
-import DashboardScreen from './components/DashboardScreen';
-import InviteScreen from './components/InviteScreen';
-import RewardsScreen from './components/RewardsScreen';
-import AdminDashboard from './components/AdminDashboard';
-import AgentDashboard from './components/AgentDashboard';
+import WelcomeScreen from './pages/Welcome';
+import DashboardScreen from './pages/Dashboard';
+import InviteScreen from './pages/Invite';
+import RewardsScreen from './pages/Rewards';
+import AdminDashboard from './pages/admin/Dashboard';
+import AgentDashboard from './pages/agent/Dashboard';
 
 function App() {
   const [currentScreen, setCurrentScreen] = useState<string>('welcome');
